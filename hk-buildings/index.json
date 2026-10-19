@@ -1,0 +1,92 @@
+[
+ {
+  "id": "hk-moderne-corner",
+  "kit": "moderne",
+  "name": "Streamline Moderne",
+  "group": "Old Hong Kong · Blender kit",
+  "era": "1950s",
+  "note": "Ribbon windows, wraparound eyebrow fins and string courses. Varies per lot: storeys 5–9, colours, finish, add-ons; follows curved fronts.",
+  "thumb": "../hk-kit/moderne.jpg",
+  "floors": 7
+ },
+ {
+  "id": "hk-composite-curve",
+  "kit": "composite",
+  "name": "Banded composite",
+  "group": "Old Hong Kong · Blender kit",
+  "era": "1960s",
+  "note": "Beige walls with coloured spandrel bands and enclosed-balcony bays. Varies per lot: storeys 8–13, colours, finish, add-ons; follows curved fronts.",
+  "thumb": "../hk-kit/composite.jpg",
+  "floors": 10
+ },
+ {
+  "id": "hk-podium-tower",
+  "kit": "podium",
+  "name": "Podium and tower",
+  "group": "Old Hong Kong · Blender kit",
+  "era": "1970s",
+  "note": "Shop podium with ribbon windows and sign hoardings, residential floors above. Varies per lot: storeys 11–23, colours, finish, add-ons; follows curved fronts.",
+  "thumb": "../hk-kit/podium.jpg",
+  "floors": 17
+ },
+ {
+  "id": "hk-cantilever-walkup",
+  "kit": "cantilever",
+  "name": "Cantilevered walk-up",
+  "group": "Old Hong Kong · Blender kit",
+  "era": "1960s",
+  "note": "Projecting slab edges and fins, timber-framed first floor. Varies per lot: storeys 6–10, colours, finish, add-ons; follows curved fronts.",
+  "thumb": "../hk-kit/cantilever.jpg",
+  "floors": 8
+ },
+ {
+  "id": "hk-pastel-corner",
+  "kit": "pastel",
+  "name": "Pastel tenement",
+  "group": "Old Hong Kong · Blender kit",
+  "era": "1960s",
+  "note": "Punched windows with sills and floor bands, small balconies. Varies per lot: storeys 6–9, colours, finish, add-ons; follows curved fronts.",
+  "thumb": "../hk-kit/pastel.jpg",
+  "floors": 7
+ },
+ {
+  "id": "hk-striped-walkup",
+  "kit": "striped",
+  "name": "Striped walk-up",
+  "group": "Old Hong Kong · Blender kit",
+  "era": "1960s",
+  "note": "Continuous windows over coloured spandrel stripes. Varies per lot: storeys 5–8, colours, finish, add-ons; follows curved fronts.",
+  "thumb": "../hk-kit/striped.jpg",
+  "floors": 6
+ },
+ {
+  "id": "hk-balcony-tenement",
+  "kit": "balcony",
+  "name": "Balcony tenement",
+  "group": "Old Hong Kong · Blender kit",
+  "era": "1960s",
+  "note": "Cantilevered coloured balcony slabs, many enclosed by owners. Varies per lot: storeys 7–12, colours, finish, add-ons; follows curved fronts.",
+  "thumb": "../hk-kit/balcony.jpg",
+  "floors": 9
+ },
+ {
+  "id": "hk-mosaic-tower",
+  "kit": "mosaic",
+  "name": "Mosaic-tile block",
+  "group": "Old Hong Kong · Blender kit",
+  "era": "1970s",
+  "note": "Small mosaic tiles with white window hoods. Varies per lot: storeys 9–17, colours, finish, add-ons; follows curved fronts.",
+  "thumb": "../hk-kit/mosaic.jpg",
+  "floors": 13
+ },
+ {
+  "id": "hk-verandah-tonglau",
+  "kit": "tonglau",
+  "name": "Verandah tong lau",
+  "group": "Old Hong Kong · Blender kit",
+  "era": "1930s",
+  "note": "Colonnaded verandahs with balustrades over the pavement, louvred shutters. Varies per lot: storeys 3–5, colours, finish, add-ons; follows curved fronts.",
+  "thumb": "../hk-kit/tonglau.jpg",
+  "floors": 4
+ }
+]

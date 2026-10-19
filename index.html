@@ -1,0 +1,154 @@
+<!doctype html><html lang="en">
+<script type="module" crossorigin src="./assets/index-Bw4fTPLs.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cpath fill=%27%23203b34%27 d=%27M0 0h32v32H0z%27/%3E%3Cpath stroke=%27%23fff%27 stroke-width=%272%27 d=%27M16 4v7m0 5v7m0 5v3%27/%3E%3C/svg%3E"><title>Hong Kong · street study</title><style>
+:root{--glass:#10171ad0;--line:#ffffff24;--ink:#eef3f1;--dim:#9fb0ab;--accent:#7fd3b5}
+*{box-sizing:border-box}body{margin:0;background:#0d1214;color:var(--ink);font:13px system-ui;overflow:hidden}canvas{display:block}
+button,select{font:inherit;color:var(--ink);background:#ffffff12;border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer}
+button:hover,select:hover{background:#ffffff22}button.active,button[aria-pressed=true]{background:var(--accent);color:#0d1214;border-color:var(--accent)}
+select option{color:#111}
+#bar{position:absolute;top:12px;left:12px;right:88px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;pointer-events:none}
+#bar>*{pointer-events:auto}.seg{display:flex;background:var(--glass);border-radius:8px;padding:3px;gap:2px;backdrop-filter:blur(8px)}.seg button{border:0;background:none}.seg button.active{background:var(--accent)}
+#bar>button,#bar>select{background:var(--glass);backdrop-filter:blur(8px)}#bar>button.active{background:var(--accent);color:#0d1214}
+#hide-ui{position:absolute;top:12px;right:12px;z-index:5;background:var(--glass);backdrop-filter:blur(8px)}
+#stats{position:absolute;top:56px;left:12px;font:11px ui-monospace,monospace;color:var(--dim);background:#0009;padding:4px 8px;border-radius:5px;pointer-events:none;white-space:pre}
+.panel{position:absolute;top:56px;right:12px;width:300px;max-height:calc(100vh - 72px);overflow:auto;background:var(--glass);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.panel h3{margin:14px 0 6px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);font-weight:600}.panel h3:first-child{margin-top:0}
+.row{display:grid;grid-template-columns:96px 1fr 50px;align-items:center;gap:8px;margin:5px 0}.row output{text-align:right;color:var(--dim);font-size:11px}.row input[type=range]{width:100%;accent-color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:4px}.chips button{padding:5px 8px;font-size:12px}
+.check{display:flex;gap:8px;align-items:center;margin:6px 0}.check input{accent-color:var(--accent)}
+.panel select{width:100%;margin:3px 0 6px}
+#flow{position:absolute;left:12px;right:12px;bottom:12px;display:flex;align-items:center;overflow-x:auto;scrollbar-width:none;background:var(--glass);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:10px;padding:5px}
+#flow::-webkit-scrollbar{display:none}
+#flow .node{flex:0 0 auto;text-align:left;border:0;background:none;padding:5px 10px;border-radius:7px;max-width:260px}
+#flow .node small{display:block;color:var(--dim);font-size:10px;letter-spacing:.1em;text-transform:uppercase}
+#flow .node span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#flow .node.open{background:var(--accent);color:#0d1214}#flow .node.open small{color:#0d1214b0}
+#flow .arrow{flex:0 0 auto;color:var(--accent);font-size:16px;padding:0 10px;opacity:.7}
+#flow .node{border:1px solid var(--line)!important;background:#ffffff0a!important}#flow .node.open{background:var(--accent)!important}
+#flow-pop{position:absolute;bottom:72px;width:360px;max-width:calc(100vw - 24px);max-height:calc(100vh - 140px);overflow:auto;background:var(--glass);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:10px;padding:12px 14px;z-index:4}
+#flow-pop h4{margin:12px 0 6px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);font-weight:600}#flow-pop h4:first-child{margin-top:0}
+#flow-pop .chips button.off{opacity:.38;cursor:not-allowed}#flow-pop .chips button.off:hover{background:#ffffff12}
+#flow-pop .rec{font-size:10px;color:var(--accent);margin-left:4px}#flow-pop .active .rec{color:#0d1214}
+#flow .node .icons{display:flex;gap:4px;align-items:center;margin-top:2px}#flow .node .icons svg{width:52px;height:32px;border-radius:4px;background:#1b2327}#flow .node.open .icons svg{background:#0d1214}
+#flow-pop .chips button.ico{display:flex;flex-direction:column;align-items:center;gap:3px;width:92px;padding:5px 4px;font-size:10.5px;line-height:1.2;text-align:center}#flow-pop .chips button.ico svg{width:80px;height:50px;border-radius:5px;background:#1b2327}#flow-pop .chips button.ico.active svg{background:#0d1214}#flow-pop .chips button.ico em{font-style:normal}
+#flow-why{color:#f3c47a;font-size:11px;line-height:1.4;margin:8px 0 0;min-height:1.4em}
+#furn-menu .sign-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(76px,1fr));gap:4px}#furn-menu button{display:flex;flex-direction:column;align-items:center;gap:1px;padding:4px 2px;font-size:10px;line-height:1.2}#furn-menu img{width:56px;height:56px}#furn-menu em{font-style:normal;font-size:9px;color:var(--dim)}#furn-menu button.active em{color:#0d1214}
+#furn-list{max-height:160px;overflow:auto;margin-bottom:6px}#furn-list>div{display:flex;gap:4px;margin:2px 0}#furn-list>div>button:first-child{flex:1;display:flex;align-items:center;gap:6px;text-align:left;padding:3px 6px;font-size:12px;min-width:0}#furn-list img{width:22px;height:22px}#furn-list small{margin-left:auto;color:var(--dim);font-size:10px;white-space:nowrap}#furn-list>div.active>button:first-child{border-color:var(--accent);background:#7fd3b533}#furn-list p{color:var(--dim);font-size:11px;margin:0}
+#furn-note,#furn-info{font-size:11px;color:var(--dim);margin:0 0 8px;line-height:1.4}#furn-sel{font-size:12px;color:var(--accent);margin-bottom:4px}#furn-warn{color:#f3c47a;font-size:11px;line-height:1.4;margin:6px 0 0}#furn-warn:empty{display:none}#furn-edit{border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:6px}
+#sign-menu .sign-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:4px}#sign-menu button{display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 2px}#sign-menu canvas{width:46px;height:auto;max-height:46px;object-fit:contain}#sign-menu em{font-style:normal;font-size:10px;color:var(--dim)}#sign-menu button.active em{color:#0d1214}
+#sign-list{max-height:180px;overflow:auto;margin-bottom:6px}#sign-list>div{display:flex;gap:4px;margin:2px 0}#sign-list>div>button:first-child{flex:1;display:flex;align-items:center;gap:6px;text-align:left;padding:3px 6px;font-size:12px;min-width:0}#sign-list img{width:22px;height:22px;object-fit:contain}#sign-list small{margin-left:auto;color:var(--dim);font-size:10px;white-space:nowrap}#sign-list>div.active>button:first-child{border-color:var(--accent);background:#7fd3b533}#sign-list p{color:var(--dim);font-size:11px;margin:0}
+#sign-note{font-size:11px;color:var(--dim);margin:0 0 8px;line-height:1.4}#sign-sel{font-size:12px;color:var(--accent);margin-bottom:4px}#sign-warn{color:#f3c47a;font-size:11px;line-height:1.4;margin:6px 0 0}#sign-warn:empty{display:none}#sign-edit{border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:6px}
+#bench-out{font:11px ui-monospace,monospace;color:var(--dim);white-space:pre-wrap;margin-top:6px}
+#info{position:absolute;left:12px;bottom:76px;width:340px;max-height:60vh;overflow:auto;background:var(--glass);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:10px;padding:12px 14px;line-height:1.45}
+#info h2{margin:0 26px 2px 0;font-size:16px;font-weight:600}#info .sub{color:var(--accent);font-size:12px;margin-bottom:8px}#info .close{position:absolute;top:8px;right:8px;padding:2px 8px}
+#info dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:6px 0;font-size:12px}#info dt{color:var(--dim)}#info dd{margin:0}
+#info ul{margin:4px 0;padding-left:16px;font-size:12px}#info li{margin:4px 0}#info .rid{color:var(--accent);font-weight:600}#info .src{color:var(--dim);font-size:11px}#info p{font-size:12px;color:var(--dim);margin:6px 0 0}
+#walk-hint{position:absolute;bottom:76px;left:50%;transform:translateX(-50%);margin:0;font-size:11px;color:var(--dim);background:#0008;padding:4px 10px;border-radius:5px;pointer-events:none;white-space:nowrap}
+#walk-pad{position:absolute;right:16px;bottom:80px;text-align:center;touch-action:none;user-select:none}#walk-pad button{width:46px;height:44px;margin:2px;font-size:20px;background:var(--glass)}
+.walk-only{display:none}body.walking .walk-only{display:inline-block}.fly-only{display:none}body.flying .fly-only{display:inline-block}
+#crosshair{position:absolute;left:50%;top:50%;width:6px;height:6px;margin:-3px;border-radius:50%;background:#fffc;box-shadow:0 0 0 1px #0008;pointer-events:none;display:none}body.locked #crosshair{display:block}
+#walk,#status{display:none}[hidden]{display:none!important}
+body.ui-hidden #ui{display:none}
+@media(pointer:fine){#walk-pad{display:none}}
+@media(max-width:650px){#bar{right:70px}#stats{top:96px;font-size:10px}body.panel-open #walk-pad{display:none}.panel{left:8px;right:8px;width:auto;top:auto;bottom:70px;max-height:58vh}#info{left:8px;right:8px;width:auto;bottom:70px}#flow{left:8px;right:8px;bottom:8px}#flow-pop{left:8px!important;right:8px;width:auto;max-width:none;bottom:70px;max-height:60vh}#walk-hint{display:none}#walk-pad{right:8px;bottom:70px}#walk-pad button{width:40px;height:40px}}
+
+
+#move-stick,.drive-only{display:none}body.driving .drive-only{display:block}
+html.touch-controls body:is(.walking,.driving) #stats{display:none}
+html.touch-controls #walk-pad{display:block;position:fixed;inset:auto 12px max(82px,env(safe-area-inset-bottom)) 12px;height:146px;pointer-events:none;z-index:6}
+html.touch-controls #walk-pad button{min-width:48px;min-height:48px;width:auto;font-size:12px;padding:8px;pointer-events:auto;touch-action:none}
+html.touch-controls #walk-pad .touch-actions{position:absolute;right:0;bottom:0;max-width:180px}
+html.touch-controls body:is(.walking,.driving) #move-stick{display:block;position:absolute;left:8px;bottom:0;width:136px;height:136px;border:2px solid #ffffff70;border-radius:50%;background:#17352b80;pointer-events:auto;touch-action:none}
+#move-stick::before{content:"MOVE";position:absolute;top:-23px;left:0;right:0;text-align:center;font-size:11px;letter-spacing:2px;color:#fff;text-shadow:0 1px 3px #000}body.driving #move-stick::before{content:"DRIVE / STEER"}
+#move-stick span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:52px;height:52px;border-radius:50%;background:#e4b174;border:2px solid #fff9;pointer-events:none}
+html.touch-controls body:is(.walking,.driving) #walk-pad button:is([data-key=KeyW],[data-key=KeyA],[data-key=KeyS],[data-key=KeyD]){display:none}
+body:is(.selecting,.panel-open,.city-planning) #walk-pad{display:none!important}
+@media(max-height:500px){html.touch-controls #walk-pad{bottom:max(12px,env(safe-area-inset-bottom))}html.touch-controls #flow{left:165px;right:195px}html.touch-controls #walk-hint{display:none}}
+</style>
+<div id="ui">
+ <div id="bar">
+  <button id="city-open" title="Plan roads on a 1 km grid, seen from a distance">City planner</button>
+  <div class="seg" id="modes" role="group" aria-label="Mode"><button data-mode="walk" class="active">Walk</button><button data-mode="drive">Drive</button><button data-mode="orbit">Free camera</button></div>
+  <select id="example" aria-label="Street layout" hidden></select>
+  <button id="select-mode" aria-pressed="false" title="Turn on to click objects and read their rules">Select</button>
+  <button data-panel="env-panel">Weather &amp; light</button>
+  <button data-panel="gfx-panel">Graphics</button>
+  <button data-panel="signs-panel" hidden>Road signs</button>
+  <button data-panel="furn-panel" hidden>Street furniture</button>
+  <button data-panel="street-panel" hidden>Street</button>
+ </div>
+ <div id="stats"></div>
+ <section class="panel" id="env-panel" hidden>
+  <h3>Weather</h3><div class="chips" id="weather"><button data-weather="clear" class="active">Clear</button><button data-weather="cloudy">Cloudy</button><button data-weather="rain">Rain</button><button data-weather="storm">Storm</button><button data-weather="fog">Fog</button></div>
+  <h3>Sun</h3><div class="chips" id="sun-presets"><button data-sun="105,18">Morning</button><button data-sun="200,72">Noon</button><button data-sun="250,7">Golden hour</button><button data-sun="290,-22">Night</button></div>
+  <div class="row"><label for="sun-az">Direction</label><input id="sun-az" type="range" min="0" max="360" step="1" value="225"><output></output></div>
+  <div class="row"><label for="sun-el">Height</label><input id="sun-el" type="range" min="-30" max="90" step="0.5" value="53"><output></output></div>
+  <div class="row"><label for="sun-int">Brightness</label><input id="sun-int" type="range" min="0" max="3" step="0.05" value="1"><output></output></div>
+  <div class="row"><label for="exposure">Exposure</label><input id="exposure" type="range" min="0.3" max="3" step="0.05" value="1"><output></output></div>
+  <label class="check"><input id="auto-lights" type="checkbox" checked> Night lights switch on below the horizon</label>
+ </section>
+ <section class="panel" id="gfx-panel" hidden>
+  <h3>Preset</h3><div class="chips" id="presets"><button data-preset="low" class="active">Low</button><button data-preset="medium">Medium</button><button data-preset="high">High</button><button data-preset="ultra">Ultra</button><button data-preset="extreme">Extreme</button></div>
+  <h3>Rendering</h3>
+  <div class="row"><label for="g-scale">Render scale</label><input id="g-scale" data-key="scale" type="range" min="0.25" max="2" step="0.05"><output></output></div>
+  <div class="row"><label for="g-msaa">Anti-alias</label><input id="g-msaa" data-key="msaa" type="range" min="0" max="8" step="4"><output></output></div>
+  <div class="row"><label for="g-shadow">Sun shadows</label><input id="g-shadow" data-key="shadow" type="range" min="0" max="5" step="1"><output></output></div>
+  <div class="row"><label for="g-lights">Night lights</label><input id="g-lights" data-key="lights" type="range" min="0" max="64" step="1"><output></output></div>
+  <div class="row"><label for="g-lampShadows">Lamp shadows</label><input id="g-lampShadows" data-key="lampShadows" type="range" min="0" max="4" step="1"><output></output></div>
+  <div class="row"><label for="g-far">Draw distance</label><input id="g-far" data-key="far" type="range" min="300" max="3000" step="50"><output></output></div>
+  <label class="check"><input id="g-bloom" data-key="bloom" type="checkbox"> Bloom (glow)</label>
+  <label class="check"><input id="g-ao" data-key="ao" type="checkbox"> Ambient occlusion (GTAO)</label>
+  <label class="check"><input id="g-env" data-key="env" type="checkbox"> Sky reflections</label>
+  <h3>Detail &amp; texture</h3>
+  <div class="row"><label for="g-detail">Surface detail</label><input id="g-detail" data-key="detail" type="range" min="0" max="8" step="1"><output></output></div>
+  <div class="row"><label for="g-aniso">Filtering</label><input id="g-aniso" data-key="aniso" type="range" min="0" max="4" step="1"><output></output></div>
+  <div class="row"><label for="g-rain">Rain drops</label><input id="g-rain" data-key="rain" type="range" min="0" max="200000" step="1000"><output></output></div>
+  <label class="check"><input id="g-stats" type="checkbox" checked> Show stats</label>
+  <h3>Benchmark</h3><button id="bench">Run 15 s benchmark</button><div id="bench-out"></div>
+ </section>
+ <section class="panel" id="street-panel" hidden>
+  <h3>Camera</h3><div class="chips"><button id="street">Street</button><button id="overview">Overview</button></div>
+  <select id="inspection" aria-label="Inspection view"><option value="">Inspection view…</option><option value="eastbound">Driver · eastbound</option><option value="westbound">Driver · westbound</option><option value="north">Pedestrian · north end</option><option value="south">Pedestrian · south end</option><option value="shared">Shared signal pole</option><option value="studs">Crossing bars &amp; studs</option><option value="corner" hidden>Corner kerb &amp; drain</option><option value="ramp" hidden>Crossing ramp kerbs</option><option value="railing" hidden>Rounded railing &amp; bolts</option></select>
+  <h3>Traffic signals</h3><select id="signal-phase" aria-label="Show green for"><option value="auto" selected>Running cycle (TPDM timings)</option><option value="pedestrian">Hold: pedestrians</option><option value="vehicles">Hold: main road vehicles</option><option id="side-phase" value="side" hidden>Hold: side road vehicles</option></select>
+  <label class="check"><input id="plan" type="checkbox"> Show footway zones</label><label class="check"><input id="planting" type="checkbox" checked> Trees &amp; street furniture</label><label class="check"><input id="sound" type="checkbox" checked> Sound: driving &amp; weather</label>
+  <p style="color:var(--dim);font-size:11px;margin:10px 0 0">Click any element to see what it is and which rules apply.</p>
+ </section>
+ <section class="panel" id="signs-panel" hidden>
+  <h3>Road signs · TPDM Vol 3</h3>
+  <p id="sign-note"></p>
+  <h3 style="margin-top:4px">Placed signs <span id="sign-count"></span></h3><div id="sign-list"></div>
+  <div class="chips"><button id="sign-undo" disabled title="Ctrl/⌘ + Z">↶ Undo</button><button id="sign-redo" disabled title="Ctrl/⌘ + Shift + Z or Ctrl + Y">Redo ↷</button></div>
+  <div id="sign-edit" hidden>
+   <div id="sign-sel"></div>
+   <div class="row"><label for="sign-yaw">Facing</label><input id="sign-yaw" type="range" min="0" max="359" step="1"><output></output></div>
+   <div class="row"><label for="sign-level">Lower edge</label><input id="sign-level" type="range" min="0.3" max="4" step="0.05"><output></output></div>
+   <div class="chips"><button data-level="2">2.0 m min</button><button data-level="2.3">2.3 m standard</button><button id="sign-face">Face camera</button><button id="sign-delete">Delete</button></div>
+   <p id="sign-warn"></p>
+  </div>
+  <div id="sign-menu"></div>
+  <p style="color:var(--dim);font-size:11px;margin:10px 0 0">Click a sign in the view or in Placed signs to select it; × in the list or Delete / Backspace removes it, Esc deselects. R / Shift+R turns it 15°. Ctrl/⌘+Z undoes, Ctrl/⌘+Shift+Z or Ctrl+Y redoes. Plates (714) hang under the lowest sign; other signs stack above.</p>
+ </section>
+ <section class="panel" id="furn-panel" hidden>
+  <h3>Street furniture · HyD Section 2</h3>
+  <p id="furn-note"></p>
+  <h3 style="margin-top:4px">Placed <span id="furn-count"></span></h3><div id="furn-list"></div>
+  <div class="chips"><button id="furn-undo" disabled title="Ctrl/⌘ + Z">↶ Undo</button><button id="furn-redo" disabled title="Ctrl/⌘ + Shift + Z or Ctrl + Y">Redo ↷</button></div>
+  <div id="furn-edit" hidden>
+   <div id="furn-sel"></div><p id="furn-info"></p>
+   <div class="row"><label for="furn-yaw">Facing</label><input id="furn-yaw" type="range" min="0" max="359" step="1"><output></output></div>
+   <div class="row" id="furn-len-row"><label for="furn-len">Length</label><input id="furn-len" type="range" min="1" max="60" step="0.1"><output></output></div>
+   <div class="chips"><button id="furn-face">Face camera</button><button id="furn-dup">Duplicate</button><button id="furn-delete">Delete</button></div>
+   <p id="furn-warn"></p>
+  </div>
+  <div id="furn-menu"></div>
+  <p style="color:var(--dim);font-size:11px;margin:10px 0 0">Click the ground to place an item anywhere; railings, barriers and rope bollards take two clicks (start, end). Click a placed item to select it, then drag it to move. Arrow keys nudge 0.1 m (Shift: 1 m), R / Shift+R turns 15°, Delete removes, Esc deselects, Ctrl/⌘+Z undoes. Saved per layout in this browser.</p>
+ </section>
+ <nav id="flow" aria-label="Street composer"></nav>
+ <div id="flow-pop" role="dialog" aria-label="Choose" hidden></div>
+ <div id="info" hidden></div>
+ <p id="walk-hint" hidden></p>
+ <div id="walk-pad" hidden aria-label="Movement controls"><div id="move-stick" role="group" aria-label="Movement joystick: up forward, down back, left and right steer"><span></span></div><div class="touch-actions"><div class="drive-only"><button data-key="Space">Brake</button><button data-key="KeyL">Lights</button><button data-key="KeyR">Recover</button></div><button class="fly-only" data-key="Space" aria-label="Fly up (Space)">⤒</button><button data-key="KeyW" aria-label="Walk forward">↑</button><button class="fly-only" data-key="ControlLeft" aria-label="Fly down (Control)">⤓</button><div><button data-key="KeyA" aria-label="Left">←</button><button data-key="KeyS" aria-label="Back">↓</button><button data-key="KeyD" aria-label="Right">→</button></div><div class="walk-only"><button data-key="Space" aria-label="Jump (Space)" style="width:auto;font-size:13px">Jump</button><button data-key="KeyE" aria-label="Climb fence (E)" style="width:auto;font-size:13px">Climb</button></div><button data-key="ShiftLeft" aria-label="Run (hold)" style="width:auto;font-size:13px">Hold: fast</button></div></div>
+ <div id="crosshair"></div>
+ <button id="walk" aria-pressed="false">Walk as Harvey</button><span id="status"></span>
+</div>
+<button id="hide-ui" aria-pressed="false" title="Hide interface (H)">Hide</button></html>

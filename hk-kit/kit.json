@@ -1,0 +1,1194 @@
+{
+ "wallUV": 6.0,
+ "ground": 4.5,
+ "finishes": {
+  "paint": {
+   "size": 6.0
+  },
+  "mosaic": {
+   "size": 1.4
+  },
+  "tile": {
+   "size": 1.2
+  },
+  "plaster": {
+   "size": 2.0
+  }
+ },
+ "shops": [
+  "SH0",
+  "SH1",
+  "SH2",
+  "SH3",
+  "SH4",
+  "SH5",
+  "SH6",
+  "SH7",
+  "SH8",
+  "SH9",
+  "SH10",
+  "SH11"
+ ],
+ "entrances": [
+  "SE0",
+  "SE1"
+ ],
+ "canopies": [
+  "CN0",
+  "CN1",
+  "CN2",
+  "CN3",
+  "CN4",
+  "CN5",
+  "CN6",
+  "CN7",
+  "CN8",
+  "CN9",
+  "CN10",
+  "CN11",
+  "CN12",
+  "CN13"
+ ],
+ "wallsigns": [
+  "WS0",
+  "WS1",
+  "WS2",
+  "WS3",
+  "WS4",
+  "WS5",
+  "WS6",
+  "WS7",
+  "WS8",
+  "WS9"
+ ],
+ "rearGround": [
+  "RG0",
+  "RG1",
+  "RG2"
+ ],
+ "rear": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5"
+ ],
+ "pipes": [
+  "PI0",
+  "PI1",
+  "PI2"
+ ],
+ "neon": [
+  "NE0",
+  "NE1",
+  "NE2",
+  "NE3",
+  "NE4",
+  "NE5",
+  "NE6",
+  "NE7",
+  "NE8",
+  "NE9",
+  "NE10",
+  "NE11",
+  "NE12",
+  "NE13",
+  "NE14",
+  "NE15"
+ ],
+ "props": {
+  "hood": "HOOD",
+  "antennas": [
+   "AN0",
+   "AN1",
+   "AN2"
+  ],
+  "dish": "DISH",
+  "shack": [
+   "SK0",
+   "SK1"
+  ],
+  "plants": [
+   "PL0",
+   "PL1"
+  ],
+  "tank": "TK",
+  "line": "LN"
+ },
+ "scaffold": {
+  "floor": "SCF",
+  "fan": "SCC"
+ },
+ "modules": {
+  "SWmosaic": {
+   "w": 1,
+   "h": 1
+  },
+  "SWtile": {
+   "w": 1,
+   "h": 1
+  },
+  "SWplaster": {
+   "w": 1,
+   "h": 1
+  },
+  "SH0": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH1": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH2": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH3": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH4": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH5": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH6": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH7": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH8": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH9": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH10": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SH11": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SE0": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "SE1": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN0": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN1": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN2": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN3": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN4": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN5": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN6": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN7": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN8": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN9": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN10": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN11": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN12": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "CN13": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "WS0": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "WS1": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "WS2": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "WS3": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "WS4": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "WS5": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "WS6": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "WS7": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "WS8": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "WS9": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "VG": {
+   "w": 4.5,
+   "h": 4.5
+  },
+  "RG0": {
+   "w": 3.0,
+   "h": 4.5
+  },
+  "RG1": {
+   "w": 3.0,
+   "h": 4.5
+  },
+  "RG2": {
+   "w": 3.0,
+   "h": 4.5
+  },
+  "R0": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "R1": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "R2": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "R3": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "R4": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "R5": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "PI0": {
+   "w": 1.2,
+   "h": 3.0
+  },
+  "PI1": {
+   "w": 1.2,
+   "h": 3.0
+  },
+  "PI2": {
+   "w": 1.2,
+   "h": 3.0
+  },
+  "TP0": {
+   "w": 3.0,
+   "h": 1.18
+  },
+  "TP1": {
+   "w": 3.0,
+   "h": 1.18
+  },
+  "TP2": {
+   "w": 3.0,
+   "h": 1.18
+  },
+  "TP3": {
+   "w": 3.0,
+   "h": 1.18
+  },
+  "TV": {
+   "w": 4.4,
+   "h": 1.35
+  },
+  "NE0": {
+   "w": 0,
+   "h": 1
+  },
+  "NE1": {
+   "w": 0,
+   "h": 1
+  },
+  "NE2": {
+   "w": 0,
+   "h": 1
+  },
+  "NE3": {
+   "w": 0,
+   "h": 1
+  },
+  "NE4": {
+   "w": 0,
+   "h": 1
+  },
+  "NE5": {
+   "w": 0,
+   "h": 1
+  },
+  "NE6": {
+   "w": 0,
+   "h": 1
+  },
+  "NE7": {
+   "w": 0,
+   "h": 1
+  },
+  "NE8": {
+   "w": 0,
+   "h": 1
+  },
+  "NE9": {
+   "w": 0,
+   "h": 1
+  },
+  "NE10": {
+   "w": 0,
+   "h": 1
+  },
+  "NE11": {
+   "w": 0,
+   "h": 1
+  },
+  "NE12": {
+   "w": 0,
+   "h": 1
+  },
+  "NE13": {
+   "w": 0,
+   "h": 1
+  },
+  "NE14": {
+   "w": 0,
+   "h": 1
+  },
+  "NE15": {
+   "w": 0,
+   "h": 1
+  },
+  "SCF": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "SCC": {
+   "w": 3.0,
+   "h": 1.5
+  },
+  "HOOD": {
+   "w": 3.2,
+   "h": 4.6
+  },
+  "AN0": {
+   "w": 0,
+   "h": 5
+  },
+  "AN1": {
+   "w": 0,
+   "h": 5
+  },
+  "AN2": {
+   "w": 0,
+   "h": 5
+  },
+  "DISH": {
+   "w": 1.2,
+   "h": 1.8
+  },
+  "SK0": {
+   "w": 4.4,
+   "h": 2.6
+  },
+  "SK1": {
+   "w": 4.4,
+   "h": 2.6
+  },
+  "PL0": {
+   "w": 2,
+   "h": 1
+  },
+  "PL1": {
+   "w": 2,
+   "h": 1
+  },
+  "TK": {
+   "w": 2.2,
+   "h": 3.2
+  },
+  "LN": {
+   "w": 4,
+   "h": 2
+  },
+  "MO0": {
+   "w": 3.0,
+   "h": 3.15
+  },
+  "MO1": {
+   "w": 3.0,
+   "h": 3.15
+  },
+  "MO2": {
+   "w": 3.0,
+   "h": 3.15
+  },
+  "MO3": {
+   "w": 3.0,
+   "h": 3.15
+  },
+  "MO4": {
+   "w": 3.0,
+   "h": 3.15
+  },
+  "MO5": {
+   "w": 3.0,
+   "h": 3.15
+  },
+  "CO0": {
+   "w": 3.2,
+   "h": 3.0
+  },
+  "CO1": {
+   "w": 3.2,
+   "h": 3.0
+  },
+  "CO2": {
+   "w": 3.2,
+   "h": 3.0
+  },
+  "CO3": {
+   "w": 3.2,
+   "h": 3.0
+  },
+  "CO4": {
+   "w": 3.2,
+   "h": 3.0
+  },
+  "CO5": {
+   "w": 3.2,
+   "h": 3.0
+  },
+  "TW0": {
+   "w": 3.2,
+   "h": 2.9
+  },
+  "TW1": {
+   "w": 3.2,
+   "h": 2.9
+  },
+  "TW2": {
+   "w": 3.2,
+   "h": 2.9
+  },
+  "TW3": {
+   "w": 3.2,
+   "h": 2.9
+  },
+  "TW4": {
+   "w": 3.2,
+   "h": 2.9
+  },
+  "TW5": {
+   "w": 3.2,
+   "h": 2.9
+  },
+  "PO0": {
+   "w": 4.0,
+   "h": 3.4
+  },
+  "PO1": {
+   "w": 4.0,
+   "h": 3.4
+  },
+  "PO2": {
+   "w": 4.0,
+   "h": 3.4
+  },
+  "PO3": {
+   "w": 4.0,
+   "h": 3.4
+  },
+  "PO4": {
+   "w": 4.0,
+   "h": 3.4
+  },
+  "PO5": {
+   "w": 4.0,
+   "h": 3.4
+  },
+  "CA0": {
+   "w": 3.6,
+   "h": 3.05
+  },
+  "CA1": {
+   "w": 3.6,
+   "h": 3.05
+  },
+  "CA2": {
+   "w": 3.6,
+   "h": 3.05
+  },
+  "CA3": {
+   "w": 3.6,
+   "h": 3.05
+  },
+  "CA4": {
+   "w": 3.6,
+   "h": 3.05
+  },
+  "CA5": {
+   "w": 3.6,
+   "h": 3.05
+  },
+  "CF0": {
+   "w": 3.6,
+   "h": 3.05
+  },
+  "CF1": {
+   "w": 3.6,
+   "h": 3.05
+  },
+  "CF2": {
+   "w": 3.6,
+   "h": 3.05
+  },
+  "PA0": {
+   "w": 2.6,
+   "h": 3.1
+  },
+  "PA1": {
+   "w": 2.6,
+   "h": 3.1
+  },
+  "PA2": {
+   "w": 2.6,
+   "h": 3.1
+  },
+  "PA3": {
+   "w": 2.6,
+   "h": 3.1
+  },
+  "PA4": {
+   "w": 2.6,
+   "h": 3.1
+  },
+  "PA5": {
+   "w": 2.6,
+   "h": 3.1
+  },
+  "ST0": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "ST1": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "ST2": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "ST3": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "ST4": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "ST5": {
+   "w": 3.0,
+   "h": 3.0
+  },
+  "BA0": {
+   "w": 3.5,
+   "h": 2.95
+  },
+  "BA1": {
+   "w": 3.5,
+   "h": 2.95
+  },
+  "BA2": {
+   "w": 3.5,
+   "h": 2.95
+  },
+  "BA3": {
+   "w": 3.5,
+   "h": 2.95
+  },
+  "BA4": {
+   "w": 3.5,
+   "h": 2.95
+  },
+  "BA5": {
+   "w": 3.5,
+   "h": 2.95
+  },
+  "MS0": {
+   "w": 3.0,
+   "h": 2.9
+  },
+  "MS1": {
+   "w": 3.0,
+   "h": 2.9
+  },
+  "MS2": {
+   "w": 3.0,
+   "h": 2.9
+  },
+  "MS3": {
+   "w": 3.0,
+   "h": 2.9
+  },
+  "MS4": {
+   "w": 3.0,
+   "h": 2.9
+  },
+  "MS5": {
+   "w": 3.0,
+   "h": 2.9
+  },
+  "TL0": {
+   "w": 4.4,
+   "h": 3.7
+  },
+  "TL1": {
+   "w": 4.4,
+   "h": 3.7
+  },
+  "TL2": {
+   "w": 4.4,
+   "h": 3.7
+  },
+  "TL3": {
+   "w": 4.4,
+   "h": 3.7
+  }
+ },
+ "styles": [
+  {
+   "id": "moderne",
+   "name": "Streamline Moderne",
+   "era": "1950s",
+   "note": "Ribbon windows, wraparound eyebrow fins and string courses.",
+   "floor": [
+    "MO0",
+    "MO1",
+    "MO2",
+    "MO3",
+    "MO4",
+    "MO5"
+   ],
+   "first": null,
+   "podium": null,
+   "top": [
+    "TP2",
+    "TP3"
+   ],
+   "ground": "canopy",
+   "floors": [
+    4,
+    8
+   ],
+   "floorH": [
+    3.0,
+    3.3
+   ],
+   "palette": {
+    "wall": [
+     "#efe6cf",
+     "#f3eedf",
+     "#e9dcc0",
+     "#e2e8dc",
+     "#f0dccf",
+     "#e8e4d8"
+    ],
+    "trim": [
+     "#c99a52",
+     "#8a9a7a",
+     "#b0705a",
+     "#6f86a8",
+     "#a08a6a"
+    ]
+   },
+   "finishes": [
+    "paint",
+    "paint",
+    "plaster"
+   ],
+   "scaffoldGap": 0.9,
+   "neon": 0.18
+  },
+  {
+   "id": "composite",
+   "name": "Banded composite",
+   "era": "1960s",
+   "note": "Beige walls with coloured spandrel bands and enclosed-balcony bays.",
+   "floor": [
+    "CO0",
+    "CO1",
+    "CO2",
+    "CO3",
+    "CO4",
+    "CO5"
+   ],
+   "first": null,
+   "podium": null,
+   "top": [
+    "TP1",
+    "TP3"
+   ],
+   "ground": "canopy",
+   "floors": [
+    7,
+    12
+   ],
+   "floorH": [
+    2.9,
+    3.1
+   ],
+   "palette": {
+    "wall": [
+     "#dcc6a2",
+     "#e6dcc8",
+     "#d6cfc2",
+     "#e8d9b8",
+     "#ece6da"
+    ],
+    "trim": [
+     "#65738c",
+     "#4f7f86",
+     "#8a4a46",
+     "#6b7a4f",
+     "#3f5a78"
+    ]
+   },
+   "finishes": [
+    "paint",
+    "paint",
+    "tile"
+   ],
+   "scaffoldGap": 1.4,
+   "neon": 0.18
+  },
+  {
+   "id": "podium",
+   "name": "Podium and tower",
+   "era": "1970s",
+   "note": "Shop podium with ribbon windows and sign hoardings, residential floors above.",
+   "floor": [
+    "TW0",
+    "TW1",
+    "TW2",
+    "TW3",
+    "TW4",
+    "TW5"
+   ],
+   "first": null,
+   "podium": {
+    "floors": [
+     2,
+     4
+    ],
+    "modules": [
+     "PO0",
+     "PO1",
+     "PO2",
+     "PO3",
+     "PO4",
+     "PO5"
+    ]
+   },
+   "top": [
+    "TP0",
+    "TP1"
+   ],
+   "ground": "canopy",
+   "floors": [
+    10,
+    22
+   ],
+   "floorH": [
+    2.8,
+    3.0
+   ],
+   "palette": {
+    "wall": [
+     "#d8cbb0",
+     "#e3ddd0",
+     "#cfd6d2",
+     "#e8dccb",
+     "#d9c9b9"
+    ],
+    "trim": [
+     "#cfc6b6",
+     "#b9b2a6",
+     "#9fa7a4",
+     "#c9b9a0",
+     "#d8c8a8"
+    ]
+   },
+   "finishes": [
+    "paint",
+    "tile",
+    "mosaic"
+   ],
+   "scaffoldGap": 0.9,
+   "neon": 0.15
+  },
+  {
+   "id": "cantilever",
+   "name": "Cantilevered walk-up",
+   "era": "1960s",
+   "note": "Projecting slab edges and fins, timber-framed first floor.",
+   "floor": [
+    "CA0",
+    "CA1",
+    "CA2",
+    "CA3",
+    "CA4",
+    "CA5"
+   ],
+   "first": [
+    "CF0",
+    "CF1",
+    "CF2"
+   ],
+   "podium": null,
+   "top": [
+    "TP1"
+   ],
+   "ground": "wallsign",
+   "floors": [
+    5,
+    9
+   ],
+   "floorH": [
+    2.95,
+    3.15
+   ],
+   "palette": {
+    "wall": [
+     "#8e9597",
+     "#a4a9a3",
+     "#9a9387",
+     "#7f8a8c",
+     "#b8b2a4"
+    ],
+    "trim": [
+     "#6c7476",
+     "#5b6062",
+     "#7a7266",
+     "#8a8f86"
+    ]
+   },
+   "finishes": [
+    "paint",
+    "plaster"
+   ],
+   "scaffoldGap": 0.9,
+   "neon": 0.18
+  },
+  {
+   "id": "pastel",
+   "name": "Pastel tenement",
+   "era": "1960s",
+   "note": "Punched windows with sills and floor bands, small balconies.",
+   "floor": [
+    "PA0",
+    "PA1",
+    "PA2",
+    "PA3",
+    "PA4",
+    "PA5"
+   ],
+   "first": null,
+   "podium": null,
+   "top": [
+    "TP0",
+    "TP1"
+   ],
+   "ground": "canopy",
+   "floors": [
+    5,
+    8
+   ],
+   "floorH": [
+    3.0,
+    3.2
+   ],
+   "palette": {
+    "wall": [
+     "#d6ddb6",
+     "#b9d4c4",
+     "#e8d6a8",
+     "#c9d6e2",
+     "#ecc9bf",
+     "#e6e2b0",
+     "#d8c8e0"
+    ],
+    "trim": [
+     "#eceedd",
+     "#ffffff",
+     "#e8e2cf"
+    ]
+   },
+   "finishes": [
+    "paint"
+   ],
+   "scaffoldGap": 1.2,
+   "neon": 0.18
+  },
+  {
+   "id": "striped",
+   "name": "Striped walk-up",
+   "era": "1960s",
+   "note": "Continuous windows over coloured spandrel stripes.",
+   "floor": [
+    "ST0",
+    "ST1",
+    "ST2",
+    "ST3",
+    "ST4",
+    "ST5"
+   ],
+   "first": null,
+   "podium": null,
+   "top": [
+    "TP1",
+    "TP0"
+   ],
+   "ground": "canopy",
+   "floors": [
+    4,
+    7
+   ],
+   "floorH": [
+    2.95,
+    3.1
+   ],
+   "palette": {
+    "wall": [
+     "#ece2c8",
+     "#eeeae0",
+     "#e4dccd",
+     "#e8e0d0"
+    ],
+    "trim": [
+     "#ddb0a2",
+     "#a8c0d6",
+     "#c8d6a8",
+     "#e8c88a",
+     "#c8a8c8"
+    ]
+   },
+   "finishes": [
+    "paint",
+    "tile"
+   ],
+   "scaffoldGap": 0.8,
+   "neon": 0.18
+  },
+  {
+   "id": "balcony",
+   "name": "Balcony tenement",
+   "era": "1960s",
+   "note": "Cantilevered coloured balcony slabs, many enclosed by owners.",
+   "floor": [
+    "BA0",
+    "BA1",
+    "BA2",
+    "BA3",
+    "BA4",
+    "BA5"
+   ],
+   "first": null,
+   "podium": null,
+   "top": [
+    "TP0"
+   ],
+   "ground": "canopy",
+   "floors": [
+    6,
+    11
+   ],
+   "floorH": [
+    2.85,
+    3.0
+   ],
+   "palette": {
+    "wall": [
+     "#dcc5a7",
+     "#e5ddcc",
+     "#d2c9b9",
+     "#e8d3c0",
+     "#d8d8c8"
+    ],
+    "trim": [
+     "#6f86a8",
+     "#7aa08a",
+     "#b07a6a",
+     "#8a8f96",
+     "#c8a050"
+    ]
+   },
+   "finishes": [
+    "paint",
+    "mosaic"
+   ],
+   "scaffoldGap": 1.5,
+   "neon": 0.18
+  },
+  {
+   "id": "mosaic",
+   "name": "Mosaic-tile block",
+   "era": "1970s",
+   "note": "Small mosaic tiles with white window hoods.",
+   "floor": [
+    "MS0",
+    "MS1",
+    "MS2",
+    "MS3",
+    "MS4",
+    "MS5"
+   ],
+   "first": null,
+   "podium": null,
+   "top": [
+    "TP0",
+    "TP1"
+   ],
+   "ground": "canopy",
+   "floors": [
+    8,
+    16
+   ],
+   "floorH": [
+    2.8,
+    3.0
+   ],
+   "palette": {
+    "wall": [
+     "#3f6a52",
+     "#4f6f8f",
+     "#8a5a4a",
+     "#c9b77a",
+     "#6a7a5a",
+     "#d8d6c8",
+     "#5a8a8a"
+    ],
+    "trim": [
+     "#e8e6dc",
+     "#ffffff",
+     "#d8d2c0"
+    ]
+   },
+   "finishes": [
+    "mosaic",
+    "mosaic",
+    "tile"
+   ],
+   "scaffoldGap": 0.9,
+   "neon": 0.18
+  },
+  {
+   "id": "tonglau",
+   "name": "Verandah tong lau",
+   "era": "1930s",
+   "note": "Colonnaded verandahs with balustrades over the pavement, louvred shutters.",
+   "floor": [
+    "TL0",
+    "TL1",
+    "TL2",
+    "TL3"
+   ],
+   "first": null,
+   "podium": null,
+   "top": [
+    "TV"
+   ],
+   "ground": "verandah",
+   "floors": [
+    2,
+    4
+   ],
+   "floorH": [
+    3.5,
+    3.8
+   ],
+   "palette": {
+    "wall": [
+     "#d9b77e",
+     "#cfa98a",
+     "#c9c0a0",
+     "#b7c4b0",
+     "#e0c8a0"
+    ],
+    "trim": [
+     "#c2b9a5",
+     "#d8d0bf",
+     "#a8a69a"
+    ]
+   },
+   "finishes": [
+    "paint",
+    "plaster"
+   ],
+   "scaffoldGap": 3.8,
+   "neon": 0.15
+  }
+ ]
+}
